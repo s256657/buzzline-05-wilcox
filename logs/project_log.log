@@ -1,0 +1,10 @@
+2025-09-24 10:53:09 | INFO | {'message': 'I just found a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 10:53:09', 'category': 'other', 'sentiment': 0.17, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 10:53:14 | INFO | {'message': 'I just saw Python! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 10:53:14', 'category': 'tech', 'sentiment': 0.31, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-24 10:53:19 | INFO | {'message': 'I just tried a story! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 10:53:19', 'category': 'other', 'sentiment': 0.56, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-24 10:53:24 | INFO | {'message': 'I just tried a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 10:53:24', 'category': 'entertainment', 'sentiment': 0.61, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-24 10:53:29 | INFO | {'message': 'I just shared travel! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 10:53:29', 'category': 'travel', 'sentiment': 0.4, 'keyword_mentioned': 'travel', 'message_length': 38}
+2025-09-24 10:53:34 | INFO | {'message': 'I just found JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-24 10:53:34', 'category': 'tech', 'sentiment': 0.1, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-24 10:53:39 | INFO | {'message': 'I just shared recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 10:53:39', 'category': 'food', 'sentiment': 0.19, 'keyword_mentioned': 'recipe', 'message_length': 38}
+2025-09-24 10:53:44 | WARNING | Producer interrupted by user.
+2025-09-24 10:53:44 | INFO | Kafka producer closed.
+2025-09-24 10:53:44 | INFO | Producer shutting down.
