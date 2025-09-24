@@ -1,0 +1,351 @@
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just saw an app! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:13', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 32}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just saw an app! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:13', 'category': 'other', 'sentiment': 0.03, 'keyword_mentioned': 'other', 'message_length': 32}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found JavaScript! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:18', 'category': 'tech', 'sentiment': 0.11, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found JavaScript! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:18', 'category': 'tech', 'sentiment': 0.11, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found JavaScript! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:18', 'category': 'tech', 'sentiment': 0.11, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:22:23', 'category': 'travel', 'sentiment': 0.35, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:22:23', 'category': 'travel', 'sentiment': 0.35, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:22:23', 'category': 'travel', 'sentiment': 0.35, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just tried an app! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:28', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just tried an app! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:28', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just tried an app! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:28', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared game! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:33', 'category': 'gaming', 'sentiment': 0.28, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared game! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:33', 'category': 'gaming', 'sentiment': 0.28, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared game! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:33', 'category': 'gaming', 'sentiment': 0.28, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just loved an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:38', 'category': 'other', 'sentiment': 0.66, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just loved an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:38', 'category': 'other', 'sentiment': 0.66, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just loved an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:22:38', 'category': 'other', 'sentiment': 0.66, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just loved recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:22:43', 'category': 'food', 'sentiment': 0.41, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just loved recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:22:43', 'category': 'food', 'sentiment': 0.41, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just loved recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:22:43', 'category': 'food', 'sentiment': 0.41, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared a trick! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:22:48', 'category': 'other', 'sentiment': 0.4, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared a trick! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:22:48', 'category': 'other', 'sentiment': 0.4, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared a trick! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:22:48', 'category': 'other', 'sentiment': 0.4, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just tried recipe! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:53', 'category': 'food', 'sentiment': 0.12, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just tried recipe! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:53', 'category': 'food', 'sentiment': 0.12, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just tried recipe! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:53', 'category': 'food', 'sentiment': 0.12, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared an app! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:58', 'category': 'other', 'sentiment': 0.64, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared an app! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:58', 'category': 'other', 'sentiment': 0.64, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared an app! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:22:58', 'category': 'other', 'sentiment': 0.64, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just tried a trick! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:03', 'category': 'other', 'sentiment': 0.47, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just tried a trick! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:03', 'category': 'other', 'sentiment': 0.47, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just tried a trick! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:03', 'category': 'other', 'sentiment': 0.47, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found JavaScript! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:23:08', 'category': 'tech', 'sentiment': 0.13, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found JavaScript! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:23:08', 'category': 'tech', 'sentiment': 0.13, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found JavaScript! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:23:08', 'category': 'tech', 'sentiment': 0.13, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just loved a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:13', 'category': 'other', 'sentiment': 0.01, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just loved a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:13', 'category': 'other', 'sentiment': 0.01, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just loved a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:13', 'category': 'other', 'sentiment': 0.01, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just tried recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:18', 'category': 'food', 'sentiment': 0.91, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just tried recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:18', 'category': 'food', 'sentiment': 0.91, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just tried recipe! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:18', 'category': 'food', 'sentiment': 0.91, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just saw a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:23', 'category': 'humor', 'sentiment': 0.07, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just saw a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:23', 'category': 'humor', 'sentiment': 0.07, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just saw a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:23', 'category': 'humor', 'sentiment': 0.07, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:28', 'category': 'humor', 'sentiment': 0.8, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:28', 'category': 'humor', 'sentiment': 0.8, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:28', 'category': 'humor', 'sentiment': 0.8, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared JavaScript! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:33', 'category': 'tech', 'sentiment': 0.07, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:33', 'category': 'tech', 'sentiment': 0.07, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared JavaScript! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:33', 'category': 'tech', 'sentiment': 0.07, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found Python! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:38', 'category': 'tech', 'sentiment': 0.05, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found Python! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:38', 'category': 'tech', 'sentiment': 0.05, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found Python! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:23:38', 'category': 'tech', 'sentiment': 0.05, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found recipe! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:23:43', 'category': 'food', 'sentiment': 0.67, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found recipe! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:23:43', 'category': 'food', 'sentiment': 0.67, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found recipe! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:23:43', 'category': 'food', 'sentiment': 0.67, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:48', 'category': 'tech', 'sentiment': 0.01, 'keyword_mentioned': 'Python', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:48', 'category': 'tech', 'sentiment': 0.01, 'keyword_mentioned': 'Python', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:48', 'category': 'tech', 'sentiment': 0.01, 'keyword_mentioned': 'Python', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:53', 'category': 'humor', 'sentiment': 0.39, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:53', 'category': 'humor', 'sentiment': 0.39, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared a meme! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:23:53', 'category': 'humor', 'sentiment': 0.39, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found JavaScript! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:23:58', 'category': 'tech', 'sentiment': 0.76, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found JavaScript! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:23:58', 'category': 'tech', 'sentiment': 0.76, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found JavaScript! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:23:58', 'category': 'tech', 'sentiment': 0.76, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found an app! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:03', 'category': 'other', 'sentiment': 0.6, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found an app! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:03', 'category': 'other', 'sentiment': 0.6, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found an app! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:03', 'category': 'other', 'sentiment': 0.6, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just loved an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:08', 'category': 'other', 'sentiment': 0.24, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just loved an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:08', 'category': 'other', 'sentiment': 0.24, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just loved an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:08', 'category': 'other', 'sentiment': 0.24, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just loved recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:13', 'category': 'food', 'sentiment': 0.61, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just loved recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:13', 'category': 'food', 'sentiment': 0.61, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just loved recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:13', 'category': 'food', 'sentiment': 0.61, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:18', 'category': 'other', 'sentiment': 0.52, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:18', 'category': 'other', 'sentiment': 0.52, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:18', 'category': 'other', 'sentiment': 0.52, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just loved a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:23', 'category': 'humor', 'sentiment': 0.3, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just loved a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:23', 'category': 'humor', 'sentiment': 0.3, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just loved a meme! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:23', 'category': 'humor', 'sentiment': 0.3, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared JavaScript! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:28', 'category': 'tech', 'sentiment': 0.1, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:28', 'category': 'tech', 'sentiment': 0.1, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared JavaScript! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:28', 'category': 'tech', 'sentiment': 0.1, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:33', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:33', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found a trick! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:33', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just shared a story! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:38', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just shared a story! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:38', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just shared a story! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-24 11:24:38', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 39}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just loved a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:43', 'category': 'humor', 'sentiment': 0.47, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just loved a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:43', 'category': 'humor', 'sentiment': 0.47, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just loved a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:24:43', 'category': 'humor', 'sentiment': 0.47, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just saw travel! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:48', 'category': 'travel', 'sentiment': 0.65, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just saw travel! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:48', 'category': 'travel', 'sentiment': 0.65, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just saw travel! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:24:48', 'category': 'travel', 'sentiment': 0.65, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just tried recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:53', 'category': 'food', 'sentiment': 0.95, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just tried recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:53', 'category': 'food', 'sentiment': 0.95, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just tried recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:53', 'category': 'food', 'sentiment': 0.95, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:24:59 | INFO | Called process_message() with:
+2025-09-24 11:24:59 | INFO |    message={'message': 'I just found a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:58', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Processed message: {'message': 'I just found a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:58', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:24:59 | INFO | message={'message': 'I just found a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:24:58', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:24:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:24:59 | INFO | Inserted one message into the database.
+2025-09-24 11:25:03 | INFO | Called process_message() with:
+2025-09-24 11:25:03 | INFO |    message={'message': 'I just found recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:03', 'category': 'food', 'sentiment': 0.13, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:25:03 | INFO | Processed message: {'message': 'I just found recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:03', 'category': 'food', 'sentiment': 0.13, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:25:03 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:03 | INFO | message={'message': 'I just found recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:03', 'category': 'food', 'sentiment': 0.13, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-24 11:25:03 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:03 | INFO | Inserted one message into the database.
+2025-09-24 11:25:08 | INFO | Called process_message() with:
+2025-09-24 11:25:08 | INFO |    message={'message': 'I just tried travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:08', 'category': 'travel', 'sentiment': 0.7, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-24 11:25:08 | INFO | Processed message: {'message': 'I just tried travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:08', 'category': 'travel', 'sentiment': 0.7, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-24 11:25:08 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:08 | INFO | message={'message': 'I just tried travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:08', 'category': 'travel', 'sentiment': 0.7, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-24 11:25:08 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:08 | INFO | Inserted one message into the database.
+2025-09-24 11:25:13 | INFO | Called process_message() with:
+2025-09-24 11:25:13 | INFO |    message={'message': 'I just loved a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:13', 'category': 'humor', 'sentiment': 0.21, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-24 11:25:13 | INFO | Processed message: {'message': 'I just loved a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:13', 'category': 'humor', 'sentiment': 0.21, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-24 11:25:13 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:13 | INFO | message={'message': 'I just loved a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:13', 'category': 'humor', 'sentiment': 0.21, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-24 11:25:13 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:13 | INFO | Inserted one message into the database.
+2025-09-24 11:25:18 | INFO | Called process_message() with:
+2025-09-24 11:25:18 | INFO |    message={'message': 'I just saw a trick! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:25:18', 'category': 'other', 'sentiment': 0.43, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:25:18 | INFO | Processed message: {'message': 'I just saw a trick! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:25:18', 'category': 'other', 'sentiment': 0.43, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:25:18 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:18 | INFO | message={'message': 'I just saw a trick! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 11:25:18', 'category': 'other', 'sentiment': 0.43, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-24 11:25:18 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:18 | INFO | Inserted one message into the database.
+2025-09-24 11:25:23 | INFO | Called process_message() with:
+2025-09-24 11:25:23 | INFO |    message={'message': 'I just loved travel! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-24 11:25:23', 'category': 'travel', 'sentiment': 0.18, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-24 11:25:23 | INFO | Processed message: {'message': 'I just loved travel! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-24 11:25:23', 'category': 'travel', 'sentiment': 0.18, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-24 11:25:23 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:23 | INFO | message={'message': 'I just loved travel! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-24 11:25:23', 'category': 'travel', 'sentiment': 0.18, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-24 11:25:23 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:23 | INFO | Inserted one message into the database.
+2025-09-24 11:25:28 | INFO | Called process_message() with:
+2025-09-24 11:25:28 | INFO |    message={'message': 'I just found game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:28', 'category': 'gaming', 'sentiment': 0.64, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-24 11:25:28 | INFO | Processed message: {'message': 'I just found game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:28', 'category': 'gaming', 'sentiment': 0.64, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-24 11:25:28 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:28 | INFO | message={'message': 'I just found game! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:28', 'category': 'gaming', 'sentiment': 0.64, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-24 11:25:28 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:28 | INFO | Inserted one message into the database.
+2025-09-24 11:25:33 | INFO | Called process_message() with:
+2025-09-24 11:25:33 | INFO |    message={'message': 'I just tried a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:33', 'category': 'entertainment', 'sentiment': 0.23, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-24 11:25:33 | INFO | Processed message: {'message': 'I just tried a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:33', 'category': 'entertainment', 'sentiment': 0.23, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-24 11:25:33 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:33 | INFO | message={'message': 'I just tried a movie! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:33', 'category': 'entertainment', 'sentiment': 0.23, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-24 11:25:33 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:33 | INFO | Inserted one message into the database.
+2025-09-24 11:25:37 | INFO | Logging to file: logs/project_log.log
+2025-09-24 11:25:37 | INFO | Log sanitization enabled, personal info removed
+2025-09-24 11:25:37 | INFO | Starting DuckDB db testing.
+2025-09-24 11:25:37 | INFO | Using DuckDB file at: data/buzz.duckdb
+2025-09-24 11:25:37 | INFO | Calling DuckDB init_db() with {db_path=}.
+2025-09-24 11:25:37 | INFO | SUCCESS: Connected to DuckDB.
+2025-09-24 11:25:37 | ERROR | ERROR: Failed to initialize DuckDB at data/buzz.duckdb: Parser Error: syntax error at or near "GENERATED"
+
+LINE 3:                 id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY, -- auto-increment
+                                              ^
+2025-09-24 11:25:37 | INFO | Calling DuckDB insert_message() with:
+2025-09-24 11:25:37 | INFO | message={'message': 'I just shared a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-01-29 14:35:20', 'category': 'humor', 'sentiment': 0.87, 'keyword_mentioned': 'meme', 'message_length': 42}
+2025-09-24 11:25:37 | INFO | db_path=PosixPath('data/buzz.duckdb')
+2025-09-24 11:25:38 | INFO | Called process_message() with:
+2025-09-24 11:25:38 | INFO |    message={'message': 'I just loved recipe! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:38', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-24 11:25:38 | INFO | Processed message: {'message': 'I just loved recipe! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:38', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-24 11:25:38 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:38 | INFO | message={'message': 'I just loved recipe! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-24 11:25:38', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-24 11:25:38 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:38 | INFO | Inserted one message into the database.
+2025-09-24 11:25:41 | ERROR | ERROR: Failed to insert message into DuckDB: Catalog Error: Table with name streamed_messages does not exist!
+Did you mean "sqlite_temp_master"?
+2025-09-24 11:25:41 | ERROR | ERROR: Verification SELECT failed: Catalog Error: Table with name streamed_messages does not exist!
+Did you mean "sqlite_temp_master"?
+
+LINE 3:             FROM streamed_messages
+                         ^
+2025-09-24 11:25:41 | INFO | Finished DuckDB db testing.
+2025-09-24 11:25:43 | INFO | Called process_message() with:
+2025-09-24 11:25:43 | INFO |    message={'message': 'I just tried game! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:43', 'category': 'gaming', 'sentiment': 0.56, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-24 11:25:43 | INFO | Processed message: {'message': 'I just tried game! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:43', 'category': 'gaming', 'sentiment': 0.56, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-24 11:25:43 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:43 | INFO | message={'message': 'I just tried game! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:43', 'category': 'gaming', 'sentiment': 0.56, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-24 11:25:43 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:43 | INFO | Inserted one message into the database.
+2025-09-24 11:25:48 | INFO | Called process_message() with:
+2025-09-24 11:25:48 | INFO |    message={'message': 'I just shared a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:48', 'category': 'humor', 'sentiment': 0.48, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:25:48 | INFO | Processed message: {'message': 'I just shared a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:48', 'category': 'humor', 'sentiment': 0.48, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:25:48 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:48 | INFO | message={'message': 'I just shared a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:48', 'category': 'humor', 'sentiment': 0.48, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-24 11:25:48 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:48 | INFO | Inserted one message into the database.
+2025-09-24 11:25:53 | INFO | Called process_message() with:
+2025-09-24 11:25:53 | INFO |    message={'message': 'I just shared an app! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:53', 'category': 'other', 'sentiment': 0.1, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:25:53 | INFO | Processed message: {'message': 'I just shared an app! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:53', 'category': 'other', 'sentiment': 0.1, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:25:53 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:53 | INFO | message={'message': 'I just shared an app! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-24 11:25:53', 'category': 'other', 'sentiment': 0.1, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 11:25:53 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:53 | INFO | Inserted one message into the database.
+2025-09-24 11:25:58 | INFO | Called process_message() with:
+2025-09-24 11:25:58 | INFO |    message={'message': 'I just found an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:58', 'category': 'other', 'sentiment': 0.8, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-24 11:25:58 | INFO | Processed message: {'message': 'I just found an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:58', 'category': 'other', 'sentiment': 0.8, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-24 11:25:58 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:25:58 | INFO | message={'message': 'I just found an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:25:58', 'category': 'other', 'sentiment': 0.8, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-24 11:25:58 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:25:58 | INFO | Inserted one message into the database.
+2025-09-24 11:26:03 | INFO | Called process_message() with:
+2025-09-24 11:26:03 | INFO |    message={'message': 'I just found Python! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:26:03', 'category': 'tech', 'sentiment': 0.8, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-24 11:26:03 | INFO | Processed message: {'message': 'I just found Python! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:26:03', 'category': 'tech', 'sentiment': 0.8, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-24 11:26:03 | INFO | Calling SQLite insert_message() with:
+2025-09-24 11:26:03 | INFO | message={'message': 'I just found Python! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-24 11:26:03', 'category': 'tech', 'sentiment': 0.8, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-24 11:26:03 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
+2025-09-24 11:26:03 | INFO | Inserted one message into the database.
+2025-09-24 11:26:08 | INFO | Called process_message() with:
+2025-09-24 11:26:08 | INFO |    message={'message': 'I just shared travel! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:26:08', 'category': 'travel', 'sentiment': 0.08, 'keyword_mentioned': 'travel', 'message_length': 38}
+2025-09-24 11:26:08 | INFO | Processed message: {'message': 'I just shared travel! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 11:26:08', 'category': 'travel', 'sentiment': 0.08, 'keyword_mentioned': 'travel', 'message_length': 38}
