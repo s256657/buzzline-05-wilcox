@@ -208,6 +208,19 @@ OR
 python3 -m consumers.duckdb_consumer_case.py
 ```
 
+## Task 5. Custom Consumer Project
+consumer_wilcox.py is a custom consumer code which uses the existing producer and Kafka and disseminates the messages then averages the sentiment analysis of the messages by category and averages that analysis. That is then visible within the database in buzz.sqlite. Command codes are below.
+
+In se[arate terminals]
+Mac
+```zsh
+source .venv/bin/activate
+python3 -m producers.producer_case
+
+source .venv/bin/activate
+python3 -m consumers.consumer_wilcox
+```
+
 ---
 
 ## Review the Project Code
