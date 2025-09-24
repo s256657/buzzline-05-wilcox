@@ -1,57 +1,18 @@
-2025-09-24 11:37:54 | INFO |    message={'message': 'I just saw a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:37:54', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 35}
-2025-09-24 11:37:54 | INFO | Processed message: {'message': 'I just saw a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:37:54', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 35}
-2025-09-24 11:37:54 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:37:54 | INFO | message={'message': 'I just saw a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:37:54', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 35}
-2025-09-24 11:37:54 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:37:54 | INFO | Inserted one message into the database.
-2025-09-24 11:37:59 | INFO | Called process_message() with:
-2025-09-24 11:37:59 | INFO |    message={'message': 'I just loved JavaScript! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:37:59', 'category': 'tech', 'sentiment': 0.89, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
-2025-09-24 11:37:59 | INFO | Processed message: {'message': 'I just loved JavaScript! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:37:59', 'category': 'tech', 'sentiment': 0.89, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
-2025-09-24 11:37:59 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:37:59 | INFO | message={'message': 'I just loved JavaScript! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 11:37:59', 'category': 'tech', 'sentiment': 0.89, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
-2025-09-24 11:37:59 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:37:59 | INFO | Inserted one message into the database.
-2025-09-24 11:38:04 | INFO | Called process_message() with:
-2025-09-24 11:38:04 | INFO |    message={'message': 'I just found a story! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:04', 'category': 'other', 'sentiment': 0.94, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-09-24 11:38:04 | INFO | Processed message: {'message': 'I just found a story! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:04', 'category': 'other', 'sentiment': 0.94, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-09-24 11:38:04 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:38:04 | INFO | message={'message': 'I just found a story! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:04', 'category': 'other', 'sentiment': 0.94, 'keyword_mentioned': 'other', 'message_length': 37}
-2025-09-24 11:38:04 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:38:04 | INFO | Inserted one message into the database.
-2025-09-24 11:38:09 | INFO | Called process_message() with:
-2025-09-24 11:38:09 | INFO |    message={'message': 'I just tried a meme! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-24 11:38:09', 'category': 'humor', 'sentiment': 0.82, 'keyword_mentioned': 'meme', 'message_length': 35}
-2025-09-24 11:38:09 | INFO | Processed message: {'message': 'I just tried a meme! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-24 11:38:09', 'category': 'humor', 'sentiment': 0.82, 'keyword_mentioned': 'meme', 'message_length': 35}
-2025-09-24 11:38:09 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:38:09 | INFO | message={'message': 'I just tried a meme! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-24 11:38:09', 'category': 'humor', 'sentiment': 0.82, 'keyword_mentioned': 'meme', 'message_length': 35}
-2025-09-24 11:38:09 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:38:09 | INFO | Inserted one message into the database.
-2025-09-24 11:38:14 | INFO | Called process_message() with:
-2025-09-24 11:38:14 | INFO |    message={'message': 'I just found Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:38:14', 'category': 'tech', 'sentiment': 0.02, 'keyword_mentioned': 'Python', 'message_length': 36}
-2025-09-24 11:38:14 | INFO | Processed message: {'message': 'I just found Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:38:14', 'category': 'tech', 'sentiment': 0.02, 'keyword_mentioned': 'Python', 'message_length': 36}
-2025-09-24 11:38:14 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:38:14 | INFO | message={'message': 'I just found Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:38:14', 'category': 'tech', 'sentiment': 0.02, 'keyword_mentioned': 'Python', 'message_length': 36}
-2025-09-24 11:38:14 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:38:14 | INFO | Inserted one message into the database.
-2025-09-24 11:38:19 | INFO | Called process_message() with:
-2025-09-24 11:38:19 | INFO |    message={'message': 'I just shared a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:19', 'category': 'humor', 'sentiment': 0.47, 'keyword_mentioned': 'meme', 'message_length': 38}
-2025-09-24 11:38:19 | INFO | Processed message: {'message': 'I just shared a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:19', 'category': 'humor', 'sentiment': 0.47, 'keyword_mentioned': 'meme', 'message_length': 38}
-2025-09-24 11:38:19 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:38:19 | INFO | message={'message': 'I just shared a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:19', 'category': 'humor', 'sentiment': 0.47, 'keyword_mentioned': 'meme', 'message_length': 38}
-2025-09-24 11:38:19 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:38:19 | INFO | Inserted one message into the database.
-2025-09-24 11:38:24 | INFO | Called process_message() with:
-2025-09-24 11:38:24 | INFO |    message={'message': 'I just tried a meme! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:24', 'category': 'humor', 'sentiment': 0.35, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-24 11:38:24 | INFO | Processed message: {'message': 'I just tried a meme! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:24', 'category': 'humor', 'sentiment': 0.35, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-24 11:38:24 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:38:24 | INFO | message={'message': 'I just tried a meme! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 11:38:24', 'category': 'humor', 'sentiment': 0.35, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-24 11:38:24 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:38:24 | INFO | Inserted one message into the database.
-2025-09-24 11:38:29 | INFO | Called process_message() with:
-2025-09-24 11:38:29 | INFO |    message={'message': 'I just saw game! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:38:29', 'category': 'gaming', 'sentiment': 0.47, 'keyword_mentioned': 'game', 'message_length': 32}
-2025-09-24 11:38:29 | INFO | Processed message: {'message': 'I just saw game! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:38:29', 'category': 'gaming', 'sentiment': 0.47, 'keyword_mentioned': 'game', 'message_length': 32}
-2025-09-24 11:38:29 | INFO | Calling SQLite insert_message() with:
-2025-09-24 11:38:29 | INFO | message={'message': 'I just saw game! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-24 11:38:29', 'category': 'gaming', 'sentiment': 0.47, 'keyword_mentioned': 'game', 'message_length': 32}
-2025-09-24 11:38:29 | INFO | db_path=PosixPath('/Users/USER/Projects/buzzline-05-wilcox/data/buzz.sqlite')
-2025-09-24 11:38:29 | INFO | Inserted one message into the database.
-2025-09-24 11:38:38 | WARNING | Consumer interrupted by user.
-2025-09-24 11:38:38 | INFO | Consumer shutting down.
+2025-09-24 16:04:03 | INFO | {'message': 'I just tried an app! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-24 16:04:03', 'category': 'other', 'sentiment': 0.68, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-24 16:04:08 | INFO | {'message': 'I just found JavaScript! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-24 16:04:08', 'category': 'tech', 'sentiment': 0.21, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 16:04:13 | INFO | {'message': 'I just tried a trick! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-24 16:04:13', 'category': 'other', 'sentiment': 0.51, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 16:04:18 | INFO | {'message': 'I just shared travel! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-24 16:04:18', 'category': 'travel', 'sentiment': 0.95, 'keyword_mentioned': 'travel', 'message_length': 37}
+2025-09-24 16:04:23 | INFO | {'message': 'I just saw JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-24 16:04:23', 'category': 'tech', 'sentiment': 0.24, 'keyword_mentioned': 'JavaScript', 'message_length': 37}
+2025-09-24 16:04:28 | INFO | {'message': 'I just found a trick! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-24 16:04:28', 'category': 'other', 'sentiment': 0.32, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 16:04:33 | INFO | {'message': 'I just tried Python! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-24 16:04:33', 'category': 'tech', 'sentiment': 0.93, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-24 16:04:38 | INFO | {'message': 'I just loved a story! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-24 16:04:38', 'category': 'other', 'sentiment': 0.98, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-24 16:04:43 | INFO | {'message': 'I just found a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 16:04:43', 'category': 'other', 'sentiment': 0.16, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-24 16:04:48 | INFO | {'message': 'I just tried JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-24 16:04:48', 'category': 'tech', 'sentiment': 0.56, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-24 16:04:53 | INFO | {'message': 'I just saw an app! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-24 16:04:53', 'category': 'other', 'sentiment': 0.88, 'keyword_mentioned': 'other', 'message_length': 32}
+2025-09-24 16:04:58 | INFO | {'message': 'I just shared game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-24 16:04:58', 'category': 'gaming', 'sentiment': 0.74, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-24 16:05:03 | INFO | {'message': 'I just loved a trick! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-24 16:05:03', 'category': 'other', 'sentiment': 0.61, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-24 16:05:08 | INFO | {'message': 'I just found JavaScript! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-24 16:05:08', 'category': 'tech', 'sentiment': 0.97, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-24 16:05:13 | INFO | {'message': 'I just loved a movie! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-24 16:05:13', 'category': 'entertainment', 'sentiment': 0.98, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-24 16:05:15 | WARNING | Producer interrupted by user.
+2025-09-24 16:05:15 | INFO | Kafka producer closed.
+2025-09-24 16:05:15 | INFO | Producer shutting down.
